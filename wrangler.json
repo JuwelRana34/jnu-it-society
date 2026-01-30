@@ -1,0 +1,18 @@
+{
+  "name": "jnuits",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": ".open-next/assets"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "itsociety",
+      "database_id": "ce07170e-a866-4dde-8762-c65f88b76ab5",
+      "migrations_dir": "drizzle"
+    }
+  ]
+}

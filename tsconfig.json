@@ -20,7 +20,10 @@
     ],
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "types": [
+      "@cloudflare/workers-types"  // optional, কিন্তু রাখুন
+    ]
   },
   "include": [
     "next-env.d.ts",
@@ -28,7 +31,9 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "**/*.mts",
+    "worker-configuration.d.ts",  
+    "cloudflare-env.d.ts"
   ],
   "exclude": ["node_modules"]
 }
